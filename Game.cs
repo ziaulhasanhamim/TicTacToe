@@ -1,8 +1,5 @@
 namespace TicTacToe;
-public enum Player
-{
-    X, O
-}
+
 public sealed class Game
 {
     private readonly char[] _board = new char[9];
